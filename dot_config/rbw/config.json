@@ -1,1 +1,1 @@
-{"email":"vhvictorhang@gmail.com","base_url":"https://vaultwarden.bealv.io","identity_url":null,"lock_timeout":3600,"sync_interval":3600,"pinentry":"pinentry","client_cert_path":null}
+{"email":"vhvictorhang@gmail.com","base_url":"https://vaultwarden.bealv.io","identity_url":null,"lock_timeout":86400,"sync_interval":600,"pinentry":"pinentry","client_cert_path":null}
