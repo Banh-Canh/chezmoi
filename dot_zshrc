@@ -29,6 +29,6 @@ if [ -x "$(which kubectl)" ]; then
 fi
 
 # kubeswitch
-if [ -f "/usr/bin/switch.sh ]; then
+if [ -f "/usr/bin/switch.sh" ]; then
   source /usr/bin/switch.sh
 fi
