@@ -1,0 +1,18 @@
+#!/bin/bash
+{{ if eq .chezmoi.osRelease.idLike "arch" }}
+  yay -S \
+    rbw \
+    swaybg \    
+    swayfx \   
+    swayidle \
+    swaylock \
+    dex \
+    mako \
+    alacritty \
+    wofi \
+    copyq \
+    zsh \
+    python-pywal \
+    python-pywalfox \
+    nwg-displays
+{{ end }}

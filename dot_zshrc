@@ -21,10 +21,14 @@ SPACESHIP_HOST_SHOW="always"
 ### tooling ###
 
 # kubectl
-SPACESHIP_KUBECTL_SHOW=true
-source <(kubectl completion zsh)
-alias k=kubectl
-complete -F __start_kubectl k
+if [ -x "$(which kubectl)" ]; then
+  SPACESHIP_KUBECTL_SHOW=true
+  source <(kubectl completion zsh)
+  alias k=kubectl
+  complete -F __start_kubectl k
+fi
 
 # kubeswitch
-source /usr/bin/switch.sh
+if [ -f "/usr/bin/switch.sh ]; then
+  source /usr/bin/switch.sh
+fi
