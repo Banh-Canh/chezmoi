@@ -1,0 +1,15 @@
+{
+    "PluginRepo": true,
+    "BDFDB": true,
+    "ReadAllNotificationsButton": true,
+    "Double Click To Edit": true,
+    "HideDisabledEmojis": true,
+    "ZeresPluginLibrary": true,
+    "ShowConnections": true,
+    "WhoReacted": true,
+    "ShowAllActivities": true,
+    "CollapsibleUI": true,
+    "WayAFK": true,
+    "enhancecodeblocks": true,
+    "AutoIdleOnAFK": true
+}
