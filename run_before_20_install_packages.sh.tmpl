@@ -2,6 +2,7 @@
 {{ if eq .chezmoi.osRelease.idLike "arch" }}
   yay -S --noconfirm \
     rbw \
+    sddm \
     swaybg \
     swayfx \
     swayidle \
@@ -15,5 +16,7 @@
     python-pywal \
     python-pywalfox \
     nwg-displays
-  pacman -Rsn $(pacman -Qdtq) --noconfirm
 {{ end }}
+
+systemctl enable sddm.service
+systemctl start sddm.service
