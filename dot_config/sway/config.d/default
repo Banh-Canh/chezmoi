@@ -28,9 +28,9 @@ set $powermenu ~/.config/waybar/scripts/power-menu.sh
 ### Idle configuration
 exec swayidle \
     timeout 60 'if ! pgrep swaylock; then swaylock -f -C ~/.config/swaylock/config; fi'\
-    timeout 9 'if pgrep swaylock; then swaymsg "output * power off" && brightnessctl --device='asus::kbd_backlight' set 0; fi' \
-    resume 'swaymsg "output * power on" && brightnessctl --device='asus::kbd_backlight' set 1' \
-    timeout 601 'if pgrep swaylock; then swaymsg "output * power on && brightnessctl --device='asus::kbd_backlight' set 1 && systemctl suspend; fi' \
+    timeout 9 'if pgrep swaylock; then swaymsg "output * power off"' \
+    resume 'swaymsg "output * power on"' \
+    timeout 601 'if pgrep swaylock; then swaymsg "output * power on && systemctl suspend; fi' \
     before-sleep 'swaylock -C ~/.config/swaylock/config'
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when

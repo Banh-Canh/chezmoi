@@ -7,6 +7,7 @@ export ZSH_CUSTOM=$ZSH/custom
 export KEEP_ZSHRC=yes
 export RUNZSH=no
 
+mkdir -p $ZSH
 rm -rf $ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
