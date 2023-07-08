@@ -1,7 +1,6 @@
 #!/bin/bash
 {{ if eq .chezmoi.osRelease.idLike "arch" }}
   yay -S --noconfirm \
-    sddm \
     swaybg \
     swayfx \
     swayidle \
@@ -16,6 +15,3 @@
     python-pywalfox \
     nwg-displays
 {{ end }}
-
-sudo systemctl enable sddm.service
-sudo systemctl start sddm.service
