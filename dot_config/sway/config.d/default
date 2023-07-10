@@ -26,7 +26,7 @@ set $menu wofi -c ~/.config/wofi/config -I
 set $powermenu ~/.config/waybar/scripts/power-menu.sh
 
 ### Idle configuration
-exec swayidle \
+exec swayidle -w \
     timeout 60 'if ! pgrep swaylock; then swaylock -f -C ~/.config/swaylock/config; fi'\
     timeout 9 'if pgrep swaylock; then swaymsg "output * power off"' \
     resume 'swaymsg "output * power on"' \
