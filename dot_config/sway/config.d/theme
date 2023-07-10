@@ -28,8 +28,8 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec swaybg -m fill -i ~/.config/wallpapers/*
-exec wal -n -i ~/.config/wallpapers
+exec swaybg -m fill -i ~/.config/wallpapers/001.jpg
+exec wal -n -i ~/.config/wallpapers/001.jpg
 exec pywal-discord -d
 exec pywalfox update
 
