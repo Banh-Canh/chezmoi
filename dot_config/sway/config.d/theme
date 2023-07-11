@@ -1,7 +1,7 @@
 ### swayfx
 
-for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3, corner_radius 10
-layer_effects waybar blur enable
+for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3, corner_radius 10, shadows enable, shadow_blur_radius 50, shadow_color #0000007F
+layer_effects waybar blur enable, waybar shadows enable
 
 set $opacity 0.8
 for_window [class="code-oss"] opacity $opacity
