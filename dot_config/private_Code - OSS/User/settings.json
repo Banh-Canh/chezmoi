@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.menuBarVisibility": "toggle",
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "PowerlineSymbols, monospace",
+    "workbench.startupEditor": "none"
+}
