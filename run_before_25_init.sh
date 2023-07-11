@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rbw set config email vhvictorhang@gmail.com
-rbw set config base_url https://vaultwarden.bealv.io
+rbw config set email vhvictorhang@gmail.com
+rbw config set base_url https://vaultwarden.bealv.io
