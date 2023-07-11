@@ -2,4 +2,4 @@
 
 sudo systemctl enable --now cups
 sudo systemctl enable --now bluetooth
-sudo systemctl enable --user --now powertune
+systemctl enable --user --now powertune
