@@ -1,5 +1,6 @@
 #!/bin/bash
 {{ if eq .chezmoi.osRelease.idLike "arch" }}
+  yay -R sway --noconfirm
   yay -S --noconfirm \
     rbw \
     swaybg \
@@ -16,6 +17,7 @@
     python-pywalfox \
     ttf-font-awesome \
     gnome-keyring \
+    blueman \
     nwg-displays
 {{ end }}
 
