@@ -1,12 +1,12 @@
 #!/bin/bash
 
-entries="Logout Suspend Reboot Shutdown"
+entries="Lock Suspend Reboot Shutdown"
 
 selected=$(printf '%s\n' $entries | wofi --conf=$HOME/.config/wofi/config.power --style=$HOME/.config/wofi/style.widgets.css | awk '{print tolower($1)}')
 
 case $selected in
-  logout)
-    swaymsg exit;;
+  lock)
+    exec $HOME/.config/sway/scripts/lockman.sh;;
   suspend)
     exec systemctl suspend;;
   reboot)
