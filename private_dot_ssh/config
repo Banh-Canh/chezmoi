@@ -1,0 +1,7 @@
+Host s3ns-lab-bastion
+    Hostname 192.168.191.201
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
