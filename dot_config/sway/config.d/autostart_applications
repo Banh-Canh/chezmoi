@@ -21,4 +21,3 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 # apps
 exec 'sleep 60; nextcloud --background'
 exec 'sleep 30; trayscale --hide-window'
-exec 'sleep 5; copyq'
