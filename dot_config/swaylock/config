@@ -1,6 +1,6 @@
 # indicator
 # no-unlock-indicator
-daemonize
+# daemonize
 #indicator-idle-visible
 indicator-caps-lock
 # datestr=%A
