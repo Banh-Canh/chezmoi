@@ -5,3 +5,7 @@ Host s3ns-lab-bastion
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host prod-k8s-cplane01
+    Hostname prod-k8s-cplane01.bealv.lan
+    Port 22
