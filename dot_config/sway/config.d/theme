@@ -4,6 +4,8 @@ for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3, corner_radius
 layer_effects waybar blur enable, waybar shadows enable
 
 set $opacity 0.9
+for_window [class="whatsapp-nativefier-*"] opacity $opacity
+for_window [class="Caprine"] opacity $opacity
 for_window [class="code-oss"] opacity $opacity
 for_window [class="YoutubeMusic"] opacity $opacity
 for_window [class="YouTube Music"] opacity $opacity
