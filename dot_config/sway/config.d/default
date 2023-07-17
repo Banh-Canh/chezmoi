@@ -27,11 +27,10 @@ set $powermenu ~/.config/waybar/scripts/power-menu.sh
 
 ### Idle configuration
 exec swayidle \
-    timeout 60 'if ! pgrep swaylock; then swaylock -f -C ~/.config/swaylock/config; fi'\
+    timeout 60 'if ! pgrep swaylock; then ~/.config/sway/scripts/lockman.sh; fi'\
     timeout 9 'if pgrep swaylock; then swaymsg "output * power off"' \
     resume 'swaymsg "output * power on"' \
-    timeout 601 'if pgrep swaylock; then swaymsg "output * power on && systemctl suspend; fi' \
-    before-sleep 'swaylock -C ~/.config/swaylock/config'
+    before-sleep '~/.config/sway/scripts/lockman.sh'
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
