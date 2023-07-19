@@ -21,3 +21,4 @@ exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 # apps
 exec 'sleep 60; nextcloud --background'
 exec 'sleep 5; jellyfin-mpv-shim'
+exec 'sleep 10; copyq'
