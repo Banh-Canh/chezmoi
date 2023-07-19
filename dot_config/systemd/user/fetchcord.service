@@ -12,7 +12,7 @@ After=network.target multi-user.target graphical-session.target
 
 [Service]
 Environment=PYTHONUNBUFFERED=1
-ExecStart=-/usr/bin/env fetchcord
+ExecStart=-/usr/bin/env fetchcord --nohardware --nohost --noshell
 Restart=always
 RestartSec=10
 
