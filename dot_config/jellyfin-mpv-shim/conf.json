@@ -7,7 +7,7 @@
     "client_uuid": "cc86c4c3-959a-41a8-a140-8ce8ad5ab5b3",
     "connect_retry_mins": 0,
     "direct_paths": false,
-    "discord_presence": true,
+    "discord_presence": false,
     "display_mirroring": false,
     "enable_gui": true,
     "enable_osc": true,

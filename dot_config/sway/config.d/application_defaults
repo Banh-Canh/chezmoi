@@ -18,6 +18,7 @@
 for_window [title="Find duplicates - Geeqie"] floating enable
 for_window [class="Yad" instance="yad"] floating enable
 for_window [title="YouTube Music - Mini Player"] floating enable
+for_window [title="Picture in picture"] floating enable, sticky enable
 for_window [app_id="blueman-manager"] floating enable,  resize set width 40 ppt height 60 ppt
 for_window [app_id="copyq"] floating enable, sticky enable, resize set height 600px width 550px, move position cursor, move down 330
 
