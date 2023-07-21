@@ -26,6 +26,7 @@ set $menu wofi -c ~/.config/wofi/config -I
 set $powermenu ~/.config/waybar/scripts/power-menu.sh
 
 ### Idle configuration
+exec sway-audio-idle-inhibit
 exec swayidle \
     timeout 60 'if ! pgrep swaylock; then ~/.config/sway/scripts/lockman.sh; fi'\
     timeout 9 'if pgrep swaylock; then swaymsg "output * power off"' \

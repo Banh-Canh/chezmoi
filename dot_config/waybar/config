@@ -18,6 +18,7 @@
     "modules-right": [
         "network",
         "idle_inhibitor",
+        "custom/audio_idle_inhibitor",
         "memory",
         "cpu",
         "pulseaudio",
@@ -214,5 +215,18 @@
         "format":"⏻",
         "on-click": "exec ~/.config/waybar/scripts/power-menu.sh",
         "tooltip": false,
+    },
+
+    "custom/audio_idle_inhibitor": {
+	"format": "{icon}",
+	"exec": "sway-audio-idle-inhibit --dry-print-both-waybar",
+	"exec-if": "which sway-audio-idle-inhibit",
+	"return-type": "json",
+	"format-icons": {
+		"output": "",
+		"input": "",
+		"output-input": "  ",
+		"none": ""
+	 }
     },
 }
