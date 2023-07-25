@@ -15,6 +15,7 @@
 #for_window [app_id="xed"] focus
 
 # set floating (nontiling)for apps needing it:
+for_window [title="Friends List" class="steam"] floating enable
 for_window [title="Find duplicates - Geeqie"] floating enable
 for_window [class="Yad" instance="yad"] floating enable
 for_window [title="YouTube Music - Mini Player"] floating enable
