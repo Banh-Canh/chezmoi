@@ -10,7 +10,7 @@
     "discord_presence": true,
     "display_mirroring": false,
     "enable_gui": false,
-    "enable_osc": true,
+    "enable_osc": false,
     "force_audio_codec": null,
     "force_set_played": false,
     "force_video_codec": null,
