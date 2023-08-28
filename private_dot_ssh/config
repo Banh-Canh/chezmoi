@@ -1,5 +1,69 @@
 Host s3ns-lab-bastion
-    Hostname 192.168.191.201
+    Hostname 192.168.191.202
+    User victor
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.160 
+    Hostname 10.1.0.160
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.161
+    Hostname 10.1.0.161
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.162
+    Hostname 10.1.0.162
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.159
+    Hostname 10.1.0.159
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.158
+    Hostname 10.1.0.158
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.157
+    Hostname 10.1.0.157
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.156
+    Hostname 10.1.0.156
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.1.0.155
+    Hostname 10.1.0.155
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
