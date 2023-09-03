@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenVPN connection to %i
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=sudo -E openvpn --daemon ovpn-%i --cd /tmp --config %h/Nextcloud/OpenVPN/bealv/int.ovpn
+ExecReload=sudo -E kill -HUP $MAINPID
+ExecStop=sudo -E kill -TERM $MAINPID
+WorkingDirectory=/tmp
+
+[Install]
+WantedBy=default.target

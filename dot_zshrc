@@ -32,3 +32,6 @@ fi
 if [ -f "/usr/bin/switch.sh" ]; then
   source /usr/bin/switch.sh
 fi
+
+# bealv
+# sudo -E openvpn --config ~/Nextcloud/OpenVPN/bealv/int.ovpn
