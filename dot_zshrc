@@ -14,6 +14,7 @@ SPACESHIP_DIR_TRUNC=0
 SPACESHIP_TIME_SHOW=true
 SPACESHIP_USER_SHOW=always
 SPACESHIP_HOST_SHOW="always"
+SPACESHIP_KUBECTL_VERSION_SHOW=true
 
 # pywal
 (cat ~/.cache/wal/sequences &)
