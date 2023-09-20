@@ -1,7 +1,7 @@
 {
 	"all": {
 		"changeLogs": {
-			"BDFDB": "3.3.4",
+			"BDFDB": "3.3.5",
 			"PluginRepo": "2.5.1",
 			"ReadAllNotificationsButton": "1.7.5",
 			"ShowConnections": "1.1.9"
@@ -16,7 +16,7 @@
 			"useChromium": false
 		},
 		"hashes": {
-			"0BDFDB.data.json": "2afe666ee053b89b170e864bbc26133bc8ef2b10",
+			"0BDFDB.data.json": "ed5068ee0796c039dae68ccc70a9336760f70908",
 			"0BDFDB.raw.css": "d467bdb12b274f0285b99eeca293b6a9349d66d6"
 		}
 	}

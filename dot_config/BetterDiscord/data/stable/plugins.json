@@ -4,7 +4,7 @@
     "ReadAllNotificationsButton": true,
     "Double Click To Edit": true,
     "HideDisabledEmojis": true,
-    "ZeresPluginLibrary": true,
+    "ZeresPluginLibrary": false,
     "ShowConnections": true,
     "WhoReacted": true,
     "ShowAllActivities": true,

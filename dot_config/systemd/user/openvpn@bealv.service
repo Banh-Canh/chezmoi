@@ -5,8 +5,8 @@ After=network.target
 [Service]
 Type=forking
 ExecStart=sudo -E openvpn --daemon ovpn-%i --cd /tmp --config %h/Nextcloud/OpenVPN/bealv/int.ovpn
-ExecReload=sudo -E kill -HUP $MAINPID
-ExecStop=sudo -E kill -TERM $MAINPID
+ExecReload=sudo -E killall openvpn
+ExecStop=sudo -E killall openvpn
 WorkingDirectory=/tmp
 Restart=always
 

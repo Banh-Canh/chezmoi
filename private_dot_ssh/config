@@ -6,6 +6,22 @@ Host s3ns-lab-bastion
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
+Host 10.2.0.159
+    Hostname 10.2.0.159
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.2.0.160
+    Hostname 10.2.0.160
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
 Host 10.1.0.160 
     Hostname 10.1.0.160
     User core
