@@ -11,6 +11,7 @@ for_window [class="YoutubeMusic"] opacity $opacity
 for_window [class="YouTube Music"] opacity $opacity
 for_window [class="discord"] opacity $opacity
 for_window [app_id="thunar"] opacity $opacity
+for_window [app_id="firefox"] opacity $opacity
 for_window [class="google-chat-linux"] opacity $opacity
 
 # Apply gtk theming
@@ -30,7 +31,8 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec mpvpaper '*' -o "no-audio loop --hwdec=vaapi" ~/.config/wallpapers/005.mp4
+exec mpvpaper '*' -o "no-audio loop" ~/.config/wallpapers/005.mp4
+swaybg_command -
 #exec swaybg -m fill -i ~/.config/wallpapers/004.jpg
 exec wal -n -i ~/.config/wallpapers/005.png
 exec pywal-discord -d
