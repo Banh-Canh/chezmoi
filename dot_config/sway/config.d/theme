@@ -31,7 +31,7 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec mpvpaper '*' -o "no-audio loop" ~/.config/wallpapers/005.mp4
+exec mpvpaper '*' -o "no-audio loop panscan=1" ~/.config/wallpapers/005.mp4
 swaybg_command -
 #exec swaybg -m fill -i ~/.config/wallpapers/004.jpg
 exec wal -n -i ~/.config/wallpapers/005.png

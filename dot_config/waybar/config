@@ -30,10 +30,18 @@
         "clock",
         "tray",
         //"custom/weather",
+        "custom/notification_inhibitor",
         "custom/power",
     ],
 
     // Modules
+    "custom/notification_inhibitor": {
+        //"exec-if": "command -v makoctl",
+        "exec": "~/.config/waybar/scripts/mako-mode.sh",
+        "on-click": "~/.config/waybar/scripts/mako-toggle.sh",
+        "format": "{}",
+        "interval": 1,
+    },
 
     "idle_inhibitor": {
         "format": "{icon} ",
