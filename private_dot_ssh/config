@@ -6,86 +6,131 @@ Host s3ns-lab-bastion
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.2.0.159
-    Hostname 10.2.0.159
+Host 10.12.255.15
+    Hostname 10.12.255.15
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.2.0.160
-    Hostname 10.2.0.160
+Host 10.12.255.16
+    Hostname 10.12.255.16
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.160 
-    Hostname 10.1.0.160
+Host 10.12.255.17
+    Hostname 10.12.255.17
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.161
-    Hostname 10.1.0.161
+Host 10.12.255.10
+    Hostname 10.12.255.10
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.162
-    Hostname 10.1.0.162
+Host 10.12.255.11
+    Hostname 10.12.255.11
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.159
-    Hostname 10.1.0.159
+Host 10.12.255.12
+    Hostname 10.12.255.12
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.158
-    Hostname 10.1.0.158
+Host 10.12.255.13
+    Hostname 10.12.255.13
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.157
-    Hostname 10.1.0.157
+Host 10.12.255.14
+    Hostname 10.12.255.14
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.156
-    Hostname 10.1.0.156
+Host 10.12.255.20
+    Hostname 10.12.255.20
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host 10.1.0.155
-    Hostname 10.1.0.155
+Host 10.12.255.21
+    Hostname 10.12.255.21
     User core
     Port 22
     IdentityFile ~/.ssh/id_rsa
     MACs hmac-sha1,umac-64@openssh.com
     Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
 
-Host prod-k8s-cplane01
-    Hostname prod-k8s-cplane01.bealv.lan
+Host 10.10.255.15
+    Hostname 10.10.255.15
+    User core
     Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+
+Host 10.10.255.16
+    Hostname 10.10.255.16
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.10.255.17
+    Hostname 10.10.255.17
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+ 
+Host 10.10.255.103
+    Hostname 10.10.255.103
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.10.255.104
+    Hostname 10.10.255.104
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc
+
+Host 10.10.255.105
+    Hostname 10.10.255.105
+    User core
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+    MACs hmac-sha1,umac-64@openssh.com
+    Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,3des-cbc

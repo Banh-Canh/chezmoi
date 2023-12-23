@@ -34,5 +34,12 @@ if [ -f "/usr/bin/switch.sh" ]; then
   source /usr/bin/switch.sh
 fi
 
+# krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 # bealv
 # sudo -E openvpn --config ~/Nextcloud/OpenVPN/bealv/int.ovpn
+#
+
+# Nix
+export PATH="$PATH:$HOME/.nix-profile/bin"

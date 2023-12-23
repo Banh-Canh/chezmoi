@@ -4,5 +4,6 @@
     "terminal.external.linuxExec": "alacritty",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "PowerlineSymbols, monospace",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "go.toolsManagement.autoUpdate": true
 }

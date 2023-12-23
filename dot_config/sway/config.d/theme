@@ -9,6 +9,7 @@ for_window [class="Caprine"] opacity $opacity
 for_window [class="code-oss"] opacity $opacity
 for_window [class="YoutubeMusic"] opacity $opacity
 for_window [class="YouTube Music"] opacity $opacity
+for_window [class="Spotify"] opacity $opacity
 for_window [class="discord"] opacity $opacity
 for_window [app_id="thunar"] opacity $opacity
 for_window [app_id="firefox"] opacity $opacity
@@ -31,10 +32,10 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec mpvpaper '*' -o "no-audio loop panscan=1" ~/.config/wallpapers/005.mp4
+exec mpvpaper '*' -p -o "no-audio loop panscan=1" ~/.config/wallpapers/006.mp4
 swaybg_command -
-#exec swaybg -m fill -i ~/.config/wallpapers/004.jpg
-exec wal -n -i ~/.config/wallpapers/005.png
+#exec swaybg -m fill -i ~/.config/wallpapers/005.png
+exec wal -n -i ~/.config/wallpapers/006.jpg
 exec pywal-discord -d
 exec pywalfox update
 

@@ -4,12 +4,12 @@
     "ReadAllNotificationsButton": true,
     "Double Click To Edit": true,
     "HideDisabledEmojis": true,
-    "ZeresPluginLibrary": false,
+    "ZeresPluginLibrary": true,
     "ShowConnections": true,
     "WhoReacted": true,
-    "ShowAllActivities": true,
-    "CollapsibleUI": true,
+    "ShowAllActivities": false,
+    "CollapsibleUI": false,
     "WayAFK": true,
-    "enhancecodeblocks": true,
+    "enhancecodeblocks": false,
     "AutoIdleOnAFK": true
 }

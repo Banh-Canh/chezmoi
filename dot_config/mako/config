@@ -16,6 +16,7 @@ border-radius=10
 border-color=#FFFFFFE6
 
 default-timeout=0
+output=eDP-1
 
 [mode=default]
 on-notify=exec mpv $HOME/.config/sounds/cyberpunk_message.mp3 
