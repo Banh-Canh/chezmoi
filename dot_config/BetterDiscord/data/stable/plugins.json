@@ -7,7 +7,7 @@
     "ZeresPluginLibrary": true,
     "ShowConnections": true,
     "WhoReacted": true,
-    "ShowAllActivities": false,
+    "ShowAllActivities": true,
     "CollapsibleUI": false,
     "WayAFK": true,
     "enhancecodeblocks": false,

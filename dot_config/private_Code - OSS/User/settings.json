@@ -5,5 +5,7 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.fontFamily": "PowerlineSymbols, monospace",
     "workbench.startupEditor": "none",
-    "go.toolsManagement.autoUpdate": true
+    "go.toolsManagement.autoUpdate": true,
+    "liveshare.languages.allowGuestCommandControl": true,
+    "editor.copyWithSyntaxHighlighting": false
 }

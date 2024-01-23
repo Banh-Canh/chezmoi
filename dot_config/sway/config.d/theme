@@ -3,7 +3,7 @@
 for_window [class=".*"] blur enable, blur_passes 3, blur_radius 3, corner_radius 10, shadows enable, shadow_blur_radius 50, shadow_color #0000007F
 layer_effects waybar blur enable, waybar shadows enable
 
-set $opacity 0.9
+set $opacity 0.8
 for_window [class="whatsapp-nativefier-*"] opacity $opacity
 for_window [class="Caprine"] opacity $opacity
 for_window [class="code-oss"] opacity $opacity
@@ -32,10 +32,10 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec mpvpaper '*' -p -o "no-audio loop panscan=1" ~/.config/wallpapers/006.mp4
+exec mpvpaper '*' -p -o "no-audio loop panscan=1" ~/.config/wallpapers/007.mp4
 swaybg_command -
 #exec swaybg -m fill -i ~/.config/wallpapers/005.png
-exec wal -n -i ~/.config/wallpapers/006.jpg
+exec wal -n -i ~/.config/wallpapers/007.jpg
 exec pywal-discord -d
 exec pywalfox update
 
